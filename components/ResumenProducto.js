@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { QuioscoProvider } from '../context/QuioscoProvider'
 import { formatearDinero } from '../helpers'
 import useQuiosco from '../hooks/useQuiosco'
 
@@ -22,7 +21,7 @@ export const ResumenProducto = ({producto}) => {
             Precio: {formatearDinero(producto. precio)}
           </p>
           <p className='text-sm text-gray-700 mt-2'>
-            Subtotal: {formatearDinero(producto. precio * producto.cantidad)}
+            Subtotal: {formatearDinero(producto.precio * producto.cantidad)}
           </p>
         </div>
         <div>
