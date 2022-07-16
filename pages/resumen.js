@@ -1,4 +1,4 @@
-import { ResumenProducto } from "../components/resumenProducto";
+import { ResumenProducto } from "../components/ResumenProducto";
 import useQuiosco from "../hooks/useQuiosco";
 import Layout from "../layout/Layout";
 
